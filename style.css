@@ -1,0 +1,141 @@
+/* Colors and Fonts */
+body {
+background: #E7EEEE;
+color: #1B2A41;
+font-family: "Raleway";
+font-size: 16px;
+}
+
+h1,h3 {
+	font-weight: bolder;
+}
+
+h1 {
+color:#4C86A8;
+font-size: 34px;
+}
+
+h2 {
+font-style: oblique;
+font-size: 18px;
+}
+
+h4 {
+color:#916C80;
+font-style:oblique;
+font-size: 20px;
+}
+
+a {
+color:#4C86A8;
+font-size: 14px;
+text-decoration: none;
+}
+a:hover {
+	color:#0E131F;
+	text-decoration: underline;
+}
+
+
+
+/* Custom design */
+
+#pdp {
+	width: 150px;
+	border-radius: 5%;
+	border:2px solid #4C86A8;
+}
+
+.container {
+	width: 800px;
+	margin: 100px auto;
+}
+
+.card-white {
+	background-color: white;
+	margin:10px;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.btn-purple {
+	background-color: #916c80;
+	color: white;
+	padding:10px 15px;
+	border-radius: 4px;
+}
+
+.btn-purple:hover {
+	background-color: #4C86A8;
+	color:white;
+	text-decoration:none;
+	font-weight: bolder;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline a {
+	background-color: #916c80;
+	color: white;
+	padding:5px 5px;
+	border-radius: 4px;
+}
+
+.list-inline a:hover {
+	background-color: #4C86A8;
+	color:white;
+	text-decoration:none;
+	font-weight: bolder;
+}
+
+
+
+
+
+#intro p {
+	margin-bottom:40px;
+	margin-top: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#intro {
+	padding-bottom: 50px;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+	h1 { font-size: 28px;
+}
+	h2 { font-size: 16px;
+}
+	h4 { font-size: 18px;
+}
+	body { font-size: 14px;
+}
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
